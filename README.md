@@ -1,22 +1,22 @@
-# yolo
-Object detection using yolo
-YOLO Object Detection
-Description
-The YOLO Object Detection project is an implementation of the YOLO algorithm for real-time object detection in both images and videos. YOLO stands for "You Only Look Once" and is known for its speed and accuracy in detecting objects in images and videos. This project can identify various objects and provide their names.
+Yolov4 object detection using opencv python, its simplest way to run inference on yolo V4
 
-Table of Contents
-Model Weights
-Demo
-Customization
-Contributing
-Model Weights
-This project supports YOLOv3 and YOLOv4 models. You can download pre-trained model weights or train your own models. The weights can be found at model-weights/. You can also specify the path to custom weights when running the detection script.
+It is a realtime object detection model and also in video detection model
+try.py- realtime detection
+yolov4.py - video detection
 
-Demo
-You can watch a demo video showcasing the project's object detection capabilities at Demo Video.
+Implementation detail available on [_**Darknet**_](https://github.com/pjreddie/darknet)
 
-Customization
-If you want to train your own custom models, you can follow the instructions in the Customization Guide. This guide provides step-by-step instructions for training YOLO models on your specific dataset.
+All the Frozen-Inference graph (pre-trained network) available on Darknet
 
-Contributing
-Contributions to this project are welcome! If you want to contribute, please follow these steps:
+## Installation
+
+You Need [**Opencv Contrib**](https://pypi.org/project/opencv-contrib-python/)
+
+--> **windows**
+```
+pip install opencv-contrib-python==4.5.3.56
+```
+--> **Linux or Mac**
+
+```
+pip3 install opencv-contrib-python==4.5.3.56
